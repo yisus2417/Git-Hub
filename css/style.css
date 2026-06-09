@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #0b0f14;
+  color: #ffffff;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+}
+
+.navbar a {
+  color: #ffffff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.logo {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+  color: #00ff88;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-family: 'Rajdhani', sans-serif;
+  color: #00e5ff;
+}
+
+.subtitle {
+  color: #00ff88;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.description {
+  max-width: 600px;
+  margin-top: 20px;
+  color: #b0b0b0;
+}
+
+/* BUTTONS */
+.buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.primary {
+  background: #00ff88;
+  color: #000;
+}
+
+.secondary {
+  border: 1px solid #00e5ff;
+  color: #00e5ff;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 12px;
+}
